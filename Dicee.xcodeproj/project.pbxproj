@@ -10,8 +10,8 @@
 		4EF9B5E12313FDEC004C3B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9B5E02313FDEC004C3B84 /* AppDelegate.swift */; };
 		4EF9B5E32313FDEC004C3B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9B5E22313FDEC004C3B84 /* ViewController.swift */; };
 		4EF9B5E62313FDEC004C3B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9B5E42313FDEC004C3B84 /* Main.storyboard */; };
-		4EF9B5E82313FDF7004C3B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9B5E72313FDF7004C3B84 /* Assets.xcassets */; };
 		4EF9B5EB2313FDF7004C3B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9B5E92313FDF7004C3B84 /* LaunchScreen.storyboard */; };
+		4EF9B5F72313FFFA004C3B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9B5F62313FFFA004C3B84 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		4EF9B5E02313FDEC004C3B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EF9B5E22313FDEC004C3B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EF9B5E52313FDEC004C3B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EF9B5E72313FDF7004C3B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EF9B5EA2313FDF7004C3B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EF9B5EC2313FDF7004C3B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF9B5F62313FFFA004C3B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				4EF9B5E02313FDEC004C3B84 /* AppDelegate.swift */,
 				4EF9B5E22313FDEC004C3B84 /* ViewController.swift */,
 				4EF9B5E42313FDEC004C3B84 /* Main.storyboard */,
-				4EF9B5E72313FDF7004C3B84 /* Assets.xcassets */,
+				4EF9B5F62313FFFA004C3B84 /* Assets.xcassets */,
 				4EF9B5E92313FDF7004C3B84 /* LaunchScreen.storyboard */,
 				4EF9B5EC2313FDF7004C3B84 /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF9B5EB2313FDF7004C3B84 /* LaunchScreen.storyboard in Resources */,
-				4EF9B5E82313FDF7004C3B84 /* Assets.xcassets in Resources */,
+				4EF9B5F72313FFFA004C3B84 /* Assets.xcassets in Resources */,
 				4EF9B5E62313FDEC004C3B84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tunlinthu.Dicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tunlinthu.Dicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
